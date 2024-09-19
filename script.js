@@ -113,7 +113,7 @@ const backToTopButton = document.getElementById('backToTop');
 // Function to toggle the visibility of the back-to-top button based on scroll position
 function handleScroll() {
     // Set the threshold for when the button should appear (can be adjusted as needed)
-    const scrollThreshold = 200; // Threshold is set to 300px
+    const scrollThreshold = 200; // Threshold is set to 200px
 
     if (window.scrollY > scrollThreshold) {
         backToTopButton.classList.remove('hidden'); // Show button
